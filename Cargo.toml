@@ -1,0 +1,12 @@
+[package]
+name = "rs-more"
+version = "0.1.0"
+authors = ["Kang Hyunwoong"]
+edition = "2021"
+description = "reimplementation of GNU more in Rust"
+repository = "https://github.com/hwoongkang/rs-more"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
