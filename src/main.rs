@@ -4,6 +4,8 @@ use crossterm::{style::Print, terminal, ExecutableCommand};
 use std::fs;
 use std::io::{self, prelude::*, BufReader, Write};
 
+mod reader;
+
 fn main() {
     let file = fs::File::open("./test_dir/holy_bible.txt").expect("Failed to open file");
 
