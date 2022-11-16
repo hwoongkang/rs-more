@@ -7,6 +7,12 @@ use std::io::{self, prelude::*, BufReader, Write};
 mod reader;
 
 fn main() {
+    let filename = "./test_dir/holy_bible.txt";
+
+    //TODO: Add error handling
+
+    // let reader = reader::Reader::new(filename).expect("Could not open file");
+
     let file = fs::File::open("./test_dir/holy_bible.txt").expect("Failed to open file");
 
     println!("{:?}", terminal::size());
